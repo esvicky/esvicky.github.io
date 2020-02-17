@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Victoria Espinosa RSS Feed]]></title><description><![CDATA[Blog of a software engineer.]]></description><link>https://esvicky.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 17 Feb 2020 09:03:08 GMT</lastBuildDate><item><title><![CDATA[My experience as a software engineer]]></title><description><![CDATA[Let me introduce you to my experience in software engineer]]></description><link>https://esvicky.github.io/gatsby-blog/blog/my-experience</link><guid isPermaLink="false">https://esvicky.github.ioblog/my-experienceMy experience as a software engineer</guid><dc:creator><![CDATA[esvicky]]></dc:creator><pubDate>Sun, 16 Feb 2020 20:25:44 GMT</pubDate><content:encoded>&lt;h2&gt;Education&lt;/h2&gt;
+&lt;h3&gt;Career&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Computer Systems Engineering&lt;/code&gt; &lt;br&gt;
+Bachelor Degree of Computer Systems Engineering at &lt;a href=&quot;http://www.escom.ipn.mx/&quot;&gt;Escuela Superior de Cómputo, IPN&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Certifications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mile2 Information Security (2017)&lt;/li&gt;
+&lt;li&gt;SAFe 4 - Practitioner (2018)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Work Experience&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Software Engineer Leader&lt;/code&gt;,&lt;a href=&quot;https://www.everis.com/mexico/es/home-mex&quot;&gt;everis an NTT Data Company&lt;/a&gt;
+&lt;br&gt;&lt;em&gt;Aug, 2019 - Present&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Contributing on the design and development of APIs using Mulesoft as a integrator to communicate Legacy systems to each other, have a communicaton with international clients and propose architecthure solutions that fit with their purposes and needes. Managing and estimating time under development and testing for every implementation needed. Leading and coaching teams to build software with quality, sharing knowledge and learn from each others to improve knowledge and communication skills.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Mulesoft, Azure DevOps, Apigee]&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Java Developer&lt;/code&gt;,&lt;a href=&quot;https://www.circulodecredito.com.mx/&quot;&gt;Círculo de Crédito&lt;/a&gt;
+&lt;br&gt;&lt;em&gt;May, 2018 - Aug, 2019&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Contributed on APIs management, creating proxies for products (PaaS), microservices on Java and Python using spring boot and flask framework; use of AWS and Google cloud tools for services and infrastructure. Contributed on the development of the &lt;a href=&quot;https://developer.circulodecredito.com.mx/&quot;&gt;Developer Portal&lt;/a&gt; of Círculo de Crédito to connect customers with all API products that CDC has. Contributed on the development of EJBs to extract and transform information from an oracle sql database.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Java, Spring Boot, Microservices, Apigee, AWS, Python, Flask, Drupal, Oracle SQL]&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Fullstack Java Developer&lt;/code&gt;, &lt;a href=&quot;http://www.serti.com.mx/&quot;&gt;SERTI&lt;/a&gt;
+&lt;br&gt;&lt;em&gt;Feb, 2018 - May, 2018&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Contributed on the development of Epay (Web) and Gift card services, both systems for manage payments, credits, transactions, using RestFul services to be consumed by mobile and web applications. Implementation of job services that processed batch information and then structured into files inside a private server.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Java, Spring Boot, Spring Security, JavaScript, SQL Server]&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Social Service&lt;/code&gt;, &lt;a href=&quot;https://www.bmv.com.mx/&quot;&gt;Bolsa Mexicana de Valores&lt;/a&gt;
+&lt;br&gt;&lt;em&gt;Apr, 2017 - Dec, 2017&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Contributed on the development of IPAT system, an application to manage financial files and proccess bills. I added the module of reporting payments and VAT into an specific period of time, modified the module of processing bills, from CSV files to Softland(An administration tool).
+Generated dynamic reports using JasperSoft tool.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Java, JavaScript, SQL Server]&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Skills&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1000px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIDBAEF/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAIBA//aAAwDAQACEAMQAAAByzr19r89xSsYiD//xAAbEAEBAAIDAQAAAAAAAAAAAAACAQADBBESE//aAAgBAQABBQIk9a9P1CCKOtsnkyY37ZVNttuf/8QAFREBAQAAAAAAAAAAAAAAAAAAESD/2gAIAQMBAT8BY//EABYRAQEBAAAAAAAAAAAAAAAAAAEgUf/aAAgBAgEBPwFcj//EABwQAAICAgMAAAAAAAAAAAAAAAERAAISIRAxQf/aAAgBAQAGPwJ2KEJe4iILU2ochiR5DZdx1KjPH//EAB4QAQACAgEFAAAAAAAAAAAAAAEAESExURBhgcHh/9oACAEBAAE/IfIFTbwSsa2wVhirMISHbX1CAmFQx8mtlpZAuSWot6f/2gAMAwEAAgADAAAAELDfvv/EABgRAAIDAAAAAAAAAAAAAAAAAAABEBFh/9oACAEDAQE/EHguf//EABgRAQADAQAAAAAAAAAAAAAAAAEAECER/9oACAECAQE/EF2Bebf/xAAcEAEAAwEBAAMAAAAAAAAAAAABABExIUFRkfD/2gAIAQEAAT8QoCEWtaPs3vxAEr5kPe+RpY9IIy4BefrqH7cGnXrUe8dR0dALw8JwZ9W01HFgKtlrs//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;software&quot;
+        title=&quot;software&quot;
+        src=&quot;/static/80bffb1ec5c3e8f95f90f9487c168afc/16038/software.jpg&quot;
+        srcset=&quot;/static/80bffb1ec5c3e8f95f90f9487c168afc/9a1e7/software.jpg 250w,
+/static/80bffb1ec5c3e8f95f90f9487c168afc/10bbb/software.jpg 500w,
+/static/80bffb1ec5c3e8f95f90f9487c168afc/16038/software.jpg 1000w,
+/static/80bffb1ec5c3e8f95f90f9487c168afc/609ff/software.jpg 1500w,
+/static/80bffb1ec5c3e8f95f90f9487c168afc/9bea7/software.jpg 2000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;Languages&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Java    &lt;/li&gt;
+&lt;li&gt;JavaScript&lt;/li&gt;
+&lt;li&gt;Python  &lt;/li&gt;
+&lt;li&gt;NodeJS&lt;/li&gt;
+&lt;li&gt;HTML    &lt;/li&gt;
+&lt;li&gt;CSS&lt;/li&gt;
+&lt;li&gt;Dataweave&lt;/li&gt;
+&lt;li&gt;C++     &lt;/li&gt;
+&lt;li&gt;C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Tools &amp;#x26; Cloud&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;AWS Cloud Computing Services&lt;/li&gt;
+&lt;li&gt;Google Cloud Platform&lt;/li&gt;
+&lt;li&gt;Apigee&lt;/li&gt;
+&lt;li&gt;Docker&lt;/li&gt;
+&lt;li&gt;React&lt;/li&gt;
+&lt;li&gt;React Native&lt;/li&gt;
+&lt;li&gt;Native Base&lt;/li&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;li&gt;Expo&lt;/li&gt;
+&lt;li&gt;Mulesoft&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;SQL Databases&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MySQL &lt;/li&gt;
+&lt;li&gt;SQL Server&lt;/li&gt;
+&lt;li&gt;Oracle SQL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;No-SQL Databases&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Firebase&lt;/li&gt;
+&lt;li&gt;DynamoDB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;p&gt;[1] &lt;a href=&quot;https://www.freepik.es/fotos-vectores-gratis/banner&quot;&gt;Vector de Banner creado por roserodionova - www.freepik.es&lt;/a&gt;&lt;br&gt;
+[2] &lt;a href=&quot;https://www.freepik.es/fotos-vectores-gratis/abstracto&quot;&gt;Vector de Abstracto creado por macrovector - www.freepik.es&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
