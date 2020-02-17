@@ -1,86 +1,64 @@
 /* Vendor imports */
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'gatsby'
-import { FaBars, FaTimes, FaGithub, FaLinkedin, FaRss } from 'react-icons/fa'
+import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 /* App imports */
+import UseEvent from '../../hooks/use-event'
 import style from './header.module.less'
 import Config from '../../../../config'
 import Utils from '../../../utils'
 
-class Header extends Component {
-  constructor() {
-    super()
-    this.state = {
-      lastScrollY: 0,
-      fixedHeader: false,
-      collapsedMenu: true,
-    }
-    this.toggleFixedHeader = this.toggleFixedHeader.bind(this)
-    this.toggleMenu = this.toggleMenu.bind(this)
-  }
 
-  componentDidMount() {
-    window.addEventListener('scroll', this.toggleFixedHeader)
-  }
+const Header = () => {
+  const [isMenuCollapsed, setMenuCollapsed] = useState(false)
+  const [isHeaderCollapsed, setHeaderCollapsed] = useState(false)
 
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.toggleFixedHeader)
-  }
-
-  toggleFixedHeader() {
-    if (!this.toggleFixedHeader.animationInProgress) {
-      this.toggleFixedHeader.animationInProgress = true
-      setTimeout(() => {
-        this.setState(
-          {
-            lastScrollY: window.scrollY,
-            fixedHeader:
-              window.scrollY > 100 && this.state.lastScrollY < window.scrollY,
-          },
-          () => (this.toggleFixedHeader.animationInProgress = false)
-        )
-      }, 200)
+    function toggleFixedHeader() {
+      if (!isHeaderCollapsed && window.scrollY > 100) {
+        setHeaderCollapsed(true)
+      } else if (isHeaderCollapsed && window.scrollY < 100) {
+        setHeaderCollapsed(false)
     }
   }
 
-  toggleMenu() {
-    this.setState({
-      collapsedMenu: !this.state.collapsedMenu,
-    })
+  function toggleMenu() {
+    setMenuCollapsed(!isMenuCollapsed)
   }
 
-  render = () => (
+  UseEvent('scroll', toggleFixedHeader)
+
+  return (
     <div
       className={style.container}
-      style={this.state.fixedHeader ? { backgroundImage: 'none' } : null}
+      style={isHeaderCollapsed ? { backgroundImage: 'none' } : null}
     >
-      <div className={style.titleContainer}>
-        <div className={style.title}>
-          <Link to={Utils.resolvePageUrl(Config.pages.home)}>
-            <h4>{Config.siteTitle}</h4>
-            <p
-              className={
-                this.state.fixedHeader
-                  ? style.hiddenDescription
-                  : style.visibleDescription
-              }
-            >
+    <div className={style.titleContainer}>
+      <div className={style.title}>
+        <Link to={Utils.resolvePageUrl(Config.pages.home)}>
+          <h4>{Config.siteTitle}</h4>
+          <p
+            className={
+              isHeaderCollapsed
+              ? style.hiddenDescription
+              : style.visibleDescription
+          }
+          >
               {Config.siteDescription}
             </p>
           </Link>
         </div>
         <div className={style.menuButton}>
-          {this.state.collapsedMenu ? (
-            <FaBars size="30" onClick={this.toggleMenu} />
+        {isMenuCollapsed ? (
+            <FaBars size="30" onClick={toggleMenu} />
           ) : (
-            <FaTimes size="30" onClick={this.toggleMenu} />
+            <FaTimes size="30" onClick={toggleMenu} />
           )}
         </div>
       </div>
       <div
         className={[
           style.list,
-          this.state.collapsedMenu ? style.collapsedMenu : style.expandedMenu,
+          isMenuCollapsed ? style.collapsedMenu : style.expandedMenu,
         ].join(' ')}
       >
         <ul>
@@ -114,9 +92,13 @@ class Header extends Component {
             </a>
           </li>
           <li>
-            <Link to={Utils.resolveUrl(Config.social.rss)}>
-              <FaRss size="30" />
-            </Link>
+            <a
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              href={Config.social.twitter}
+            >
+              <FaTwitter size="30" />
+            </a>
           </li>
         </ul>
       </div>

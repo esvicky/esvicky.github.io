@@ -20,7 +20,7 @@ module.exports = {
   social: {
     github: 'https://github.com/esvicky',
     linkedin: 'https://www.linkedin.com/in/victoria-alejandra-espinosa-gonzalez',
-    rss: '/rss.xml'
+    twitter: 'https://twitter.com/vicky_espinosa?s=08'
   },
   tags: {
     javascript: {
@@ -29,6 +29,13 @@ module.exports = {
     nodejs: {
       name: 'Node.js',
       description: 'Node.js is a tool for executing JavaScript in a variety of environments.'
+    },
+    python: {
+      description: 'Python is a programming language that lets you work quickly and integrate systems more effectively.'
+    },
+    java: {
+      name: 'Java',
+      description: 'Java is a general-purpose, concurrent, strongly typed, class-based object-oriented language. It is normally compiled to the bytecode instruction set and binary format defined in the Java Virtual Machine Specification.'
     },
     react: {
       description: 'React is an open source JavaScript library used for designing user interfaces.'
